@@ -1,0 +1,19 @@
+---
+title: "Data Science Profile"
+author: "Quincy Roundtree"
+date: "5/26/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+c <- c('computer programing', 'math', 'statistics', 'machine learning','domain expertise', 'communication and presentation skills', 'data visualization')
+
+n <- c(1, 3, 3, 1, 3, 3, 2)
+```
+
+
+```{r n, echo=TRUE}
+barplot(n, names.arg = c)
+```
+
